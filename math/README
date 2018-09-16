@@ -1,0 +1,5 @@
+Formal analysis of the Pine 2013 method
+
+simnew.py: read in mins, S, p, P as four arguments, runs values of s from [mins, S]
+
+for each s, calculates the expected overlap value of a word whose bias factor is fixed at 0.8 
