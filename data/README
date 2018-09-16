@@ -1,0 +1,8 @@
+— Download Manchester files. 
+
+-- unzip and run "fixpine" to unspilt annotation lines
+
+-- run awk '{print FILENAME, $0;}' anne/*cha | sed ’s/\~/ /g’ > anne.cha which adds filename to each line; this will be useful for defining phases
+
+-- run create_masterlist.py to create a masterlist of nouns that the mothers collectively used at least twice (per Pine et al. 2013). this file MUST be in the directory when the sampling methods are run
+
