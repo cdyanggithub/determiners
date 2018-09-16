@@ -1,0 +1,11 @@
+replacting VSS 2009 (J. Child Language) and Yang 2013 (PNAS)
+
+the file 'masterlist.txt' must be in the same directory
+
+the cha files in '../data/', and accessed via a few batch commands
+
+overlap.py calculates the empirical and expected overlap values for each input cha file (both mother and child)
+
+controlfreq.py calculates the empirical overlap values for both children and mothers by noun token freq (1, ... 8+)
+
+overlap_phase.py calculates the empirical and expected overlap values for each child for phase 1 (as defined by p2013)
